@@ -34,7 +34,7 @@
                 <tr class="last-row">
                   <td></td>
                   <td>
-                    <a href="#" class="upgrade-table-btn btn btn-round btn-fill btn-info">Start</a>
+                    <a href="#" class="upgrade-table-btn btn btn-round btn-fill btn-primary">Start</a>
                   </td>
                 </tr>
                 </tbody>
