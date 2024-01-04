@@ -4,6 +4,7 @@ import NotFound from '../pages/NotFoundPage.vue'
 
 // Admin pages
 import Overview from 'src/pages/Overview.vue'
+import VideoComparison from 'src/pages/VideoComparison.vue'
 import UserProfile from 'src/pages/UserProfile.vue'
 import TableList from 'src/pages/TableList.vue'
 import Typography from 'src/pages/Typography.vue'
@@ -11,6 +12,7 @@ import Icons from 'src/pages/Icons.vue'
 import Maps from 'src/pages/Maps.vue'
 import Notifications from 'src/pages/Notifications.vue'
 import Upgrade from 'src/pages/Upgrade.vue'
+import Calibrate from 'src/pages/Calibrate.vue'
 
 const routes = [
   {
@@ -32,6 +34,11 @@ const routes = [
         path: 'user',
         name: 'User',
         component: UserProfile
+      },
+      {
+        path: 'compare',
+        name: 'Compare',
+        component: VideoComparison
       },
       {
         path: 'table-list',
@@ -57,6 +64,11 @@ const routes = [
         path: 'notifications',
         name: 'Notifications',
         component: Notifications
+      },
+      {
+        path: 'calibrate',
+        name: 'Camera Calibration',
+        component: Calibrate
       },
       {
         path: 'upgrade',

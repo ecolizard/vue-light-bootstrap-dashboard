@@ -8,6 +8,13 @@ function resolveSrc(_path) {
 module.exports = {
   lintOnSave: false,
   configureWebpack: {
+
+    devtool: 'source-map',
+    plugins: [
+      new webpack.DefinePlugin({
+        'process.env.FLUENTFFMPEG_COV': false
+      })
+    ],
     // Set up all the aliases we use in our app.
     resolve: {
       alias: {
@@ -22,7 +29,7 @@ module.exports = {
     ]
   },
   pwa: {
-    name: 'Vue Light Bootstrap Dashboard',
+    name: 'Recovery Insights',
     themeColor: '#344675',
     msTileColor: '#344675',
     appleMobileWebAppCapable: 'yes',

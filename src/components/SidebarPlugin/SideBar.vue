@@ -5,9 +5,9 @@
        :data-image="backgroundImage">
     <div class="sidebar-wrapper">
       <div class="logo">
-        <a href="#" class="simple-text logo__container">
-            <div class="logo-img">
-                <img src="img/vue-logo.png" alt="">
+        <a href="#" class="simple-text logo__container"  style="background-color: transparent;">
+            <div class="logo-img" style="background-color: transparent;">
+                <img src="img/logo/uob-logo-only-white-transparent.png" alt="" style="background-color: transparent; max-width: 54px">
             </div>
           {{title}}
         </a>
@@ -43,7 +43,7 @@
     props: {
       title: {
         type: String,
-        default: 'Vue LBD'
+        default: 'Recovery Insights'
       },
       backgroundColor: {
         type: String,
@@ -55,7 +55,7 @@
       },
       backgroundImage: {
         type: String,
-        default: 'img/sidebar-5.jpg'
+        default: 'img/sidebar-7.png'
       },
       activeColor: {
         type: String,

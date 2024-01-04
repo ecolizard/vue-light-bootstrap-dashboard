@@ -10,6 +10,10 @@
         <i class="nc-icon nc-circle-09"></i>
         <p>User Profile</p>
       </sidebar-link>
+      <sidebar-link to="/admin/compare">
+        <i class="nc-icon nc-ruler-pencil"></i>
+        <p>Comparison</p>
+      </sidebar-link>
       <sidebar-link to="/admin/table-list">
         <i class="nc-icon nc-notes"></i>
         <p>Table list</p>
@@ -33,9 +37,9 @@
 
       <template slot="bottom-links">
         <sidebar-link class="active"
-                      to="/admin/upgrade">
-          <i class="nc-icon nc-alien-33"></i>
-          <p>Upgrade to PRO</p>
+                      to="/admin/calibrate">
+          <i class="nc-icon nc-settings-90"></i>
+          <p>Calibrate</p>
         </sidebar-link>
       </template>
     </side-bar>
